@@ -1,0 +1,139 @@
+body{
+    background-color: #fbf8ef;
+}
+.score{
+    width: 500px;
+    margin: 80px auto 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #79746a;
+}
+.score_left{
+    font-size: 80px;
+    font-family:Arial, sans-serif;
+}
+.score_right{
+    position: relative;
+    left: 100px;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #bbada0;
+    border-radius: 10px;
+}
+
+.main>div{
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 0 20px;
+    background-color: #cdc1b4;
+    float: left;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+}
+#cover{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 205px;
+    left: 50%;
+    margin-left: -250px;
+    z-index: 4;
+    background: rgba(200, 200, 200, 0.5);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #776e65;
+    border-radius: 10px;
+    padding-top: 200px;
+    display: none;
+}
+#cover input{
+    margin-top: -480;
+    width: 120px;
+    height: 40px;
+    background:#8f7a66;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.main>.n2 {
+    background: #eee4da;
+    color: #776e65;
+}
+
+.main>.n4 {
+    background: #ede0c8;
+    color: #776e65;
+}
+
+.main>.n8 {
+    background: #f2b179;
+    color: #f9f6f2;
+}
+
+.main>.n16 {
+    background: #f59563;
+    color: #f9f0cd;
+}
+
+.main>.n32 {
+    background: #f67c5f;
+    color: #f9f6ef;
+}
+
+.main>.n64 {
+    background: #f65e3b;
+    color: #f9f6f2;
+}
+
+.main>.n128 {
+    background: #edcf72;
+    color: #f6ebd5;
+    font-size: 36px;
+}
+
+.main>.n256 {
+    background: #edcc61;
+    color: #f9f6f2;
+    font-size: 36px;
+}
+
+.main>.n512 {
+    background: #edc850;
+    color: #f9f6f2;
+    font-size: 36px;
+}
+
+.main>.n1024 {
+    background: #edc53f;
+    color: #f7f6f2;
+    font-size: 30px;
+}
+
+.main>.n2048 {
+    background: #edc22e;
+    color: #f9f6f2;
+    font-size: 30px;
+}
+
+.main>.n4096 {
+    background: #a6c;
+    color: #f9f6f2;
+    font-size: 30px;
+}
+
+.main>.n8192 {
+    background: #93c;
+    color: #f9f6f2;
+    font-size: 30px;
+}
